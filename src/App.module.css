@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    font-family: "Neucha", cursive;
+    align-items: center;
+}
 .Tasks {
-    background-color: lawngreen;
+    text-align: center;
+    font-size: 50px;
+    margin: 30px 0;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+}
+
+@media (max-width: 800px) {
+    .Tasks {
+        margin: 15px 0;
+        font-size: 35px;
+    }
 }
