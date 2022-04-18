@@ -37,7 +37,7 @@ const ToDoItem = ({ todo, setTodos, todos }) => {
     <form className={style.ToDoItem} onSubmit={(e) => handleEdit(e, todo.id)}>
       {edit ? (
         <input
-            ref={inputRef}
+          ref={inputRef}
           className={style.ToDoText}
           value={editTodo}
           onChange={(e) => setEditTodo(e.target.value)}

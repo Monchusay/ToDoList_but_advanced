@@ -3,6 +3,7 @@ import style from "./InputField.module.css";
 import { useRef } from "react";
 
 const InputField = ({ todo, setTodo, handleAdd }) => {
+
   const inputRef = useRef(null);
 
   return (

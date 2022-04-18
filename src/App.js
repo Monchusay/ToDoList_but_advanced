@@ -16,7 +16,6 @@ const App = (props) => {
       setTodo("");
     }
   };
-  console.log(todos);
 
   return (
     <div className={style.App}>
